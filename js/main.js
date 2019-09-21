@@ -28,7 +28,7 @@ $(function(){
     });
 });
 
-
+// это для прикола:
 
 $(function(){
     $('.know-more').on('click', function(){

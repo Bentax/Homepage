@@ -10,6 +10,7 @@ while($row = $stmt->fetch())
     echo "<p>" . $row['time'] ."&nbsp;". $row['name'] . "&nbsp;" . $row['phone'] ."&nbsp;". $row['email'] . "</p>";
     echo "<p>" . "</p><br />";
 }
+// это для прикола:
 function print_special($message, $mode)
 {
     if($mode===1){
